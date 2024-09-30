@@ -1,0 +1,11 @@
+scp -i /caminho/da/chave_privada arquivo_origem usuario@host:destino
+
+
+Componentes do Comando:
+-i /caminho/da/chave_privada: Especifica a chave privada SSH que deve ser usada para autenticação. Essa chave deve corresponder à chave pública autorizada no servidor remoto.
+
+arquivo_origem: Caminho do arquivo que você deseja copiar. Pode ser um arquivo local ou um arquivo remoto, dependendo da direção da transferência.
+
+usuario@host: Especifica o nome de usuário e o host (endereço IP ou nome de domínio) do servidor remoto. Por exemplo, usuario@192.168.1.10 ou usuario@exemplo.com.
+
+destino: Caminho no servidor remoto onde o arquivo será copiado.
